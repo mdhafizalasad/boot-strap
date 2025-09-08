@@ -1,0 +1,7 @@
+Here is the text from the image:
+
+Follow these steps to enjoy the library
+
+1. include the my-css-library.css to your project's html files before your style.css
+2. Give a look on the my-css-library.css for 5 minutes to understand what css actually written to the files.
+3. Use that classes to enjoy the library

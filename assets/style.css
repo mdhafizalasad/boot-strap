@@ -1,12 +1,13 @@
-/* h1 {
-  text-align: center;
-} 
-  
-img {
-  max-width: 100%;
+.flag-box {
+  width: 800px;
+  height: 500px;
+  /* background: green; */
 }
 
-h1 {
-  color: red;
+.flag-circle{
+  width: 200px;
+  height: 200px;
 }
-*/
+img {
+  width: 400px;
+}

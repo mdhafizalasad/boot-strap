@@ -11,3 +11,45 @@
 img {
   width: 400px;
 }
+
+.our-custom-accordion .accordion-item + .accordion-item {
+  margin-top: 24px;
+}
+
+.our-custom-accordion .accordion-item {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.our-custom-accordion .accordion-header{
+ padding: 16px 16px 16px 20px;
+}
+
+.our-custom-accordion .accordion-header a{
+ font-size: 24px;
+ display: block;
+ font-weight: 700;
+ color: #000000;
+ text-decoration: none;
+ position: relative;
+}
+
+.our-custom-accordion .accordion-header a i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  width: 24px;
+  height: 24px;
+  background-color: green;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-custom-accordion .accordion-header a.collapsed i {
+  transform: translateY(-50%) rotate(180deg);
+}

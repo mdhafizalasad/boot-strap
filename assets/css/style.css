@@ -8,9 +8,7 @@
   width: 200px;
   height: 200px;
 }
-img {
-  width: 400px;
-}
+
 
 .our-custom-accordion .accordion-item + .accordion-item {
   margin-top: 24px;
@@ -52,4 +50,53 @@ img {
 
 .our-custom-accordion .accordion-header a.collapsed i {
   transform: translateY(-50%) rotate(180deg);
+}
+
+.custom-slider-control{
+  position: initial;
+  margin-top: 24px;
+  gap: 15px;
+}
+
+.custom-slider-control img{
+  border-radius: 50%;
+  width:100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.carousel-item img{
+  width:100%;
+  /* height: 700px; */
+  object-fit: cover;
+}
+
+.product-slider {
+  display: flex;
+  gap: 24px;
+}
+
+.product-slider .carousel-indicators {
+  position: initial;
+  margin: 0;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.product-slider .carousel-indicators a{
+  width:200px;
+  height: 121px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.product-slider .carousel-indicators a.active{
+  border-color: green;
+  padding: 4px;
+}
+
+.product-slider .carousel-indicators img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
 }
